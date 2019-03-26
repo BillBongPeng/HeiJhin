@@ -7,6 +7,7 @@ import android.arch.persistence.room.DatabaseConfiguration;
 import android.arch.persistence.room.InvalidationTracker;
 import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
+import android.content.Context;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 
@@ -17,7 +18,7 @@ public abstract class ArtDatabase extends RoomDatabase {
 
     private static ArtDatabase INSTANCE;
 
-    static ArtDatabase getDatabase(){
+    static ArtDatabase getDatabase(final Context context){
         if(INSTANCE == null){
             synchronized (ArtDatabase.class){
                 if(INSTANCE == null){
@@ -57,8 +58,8 @@ public abstract class ArtDatabase extends RoomDatabase {
         protected Void doInBackground(Void... voids) {
             artDao.deleteAll();
             for( int i = 0; i<= artTitles.length - 1; i++){
-                ArtDatabase artDatabase = new Art(artTitles[i], artInfo[i], artist[i], year[i], imageNum[i]);
-                artDao.insert(artDatabase);
+                Art art = new Art(artTitles[i], artInfo[i], artist[i], year[i], imageNum[i]);
+                artDao.insert(art);
             }
             return null;
         }

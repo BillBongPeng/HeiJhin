@@ -24,7 +24,7 @@ public class ArtRepository {
         new insertAsyncTask(mArtDao).execute(art);
     }
 
-    private static class insertAsyncTask extends AsyncTask<Void, Void, Void>{
+    private static class insertAsyncTask extends AsyncTask<Art, Void, Void>{
         private ArtDao mAsyncTaskDao;
 
         insertAsyncTask(ArtDao dao){
@@ -32,8 +32,8 @@ public class ArtRepository {
         }
 
         @Override
-        protected Void doInBackground(Art... arts) {
-            mAsyncTaskDao.insert(arts[0]);
+        protected Void doInBackground(final Art... params) {
+            mAsyncTaskDao.insert(params[0]);
             return null;
 
         }

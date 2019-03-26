@@ -11,7 +11,7 @@ import java.util.List;
 //Map java method call to an SQL query
 
 @Dao
-public class ArtDao {
+public interface ArtDao {
 
     @Query("SELECT * from art_table ORDER BY art_title ASC")
     LiveData<List<Art>> getNumberedArtTitle();
