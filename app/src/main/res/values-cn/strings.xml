@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">黑金文化</string>
+    <string name="art_title_placeholder">作品名</string>
+    <string name="artist_name_placeholder">画家</string>
+    <string name="cover_welcome">欢迎来到黑金部落</string>
+    <string name="cover_intro">还原赫哲文化 创新文化领域</string>
+    <string name="a_piece_of_art">一件作品</string>
+    <string name="art_work_gallery">作品展出</string>
+    <string name="ceramic_gallery">陶瓷展出</string>
+    <string name="previous_button">前</string>
+    <string name="next_button">后</string>
+    <string name="about_us_button">关于我们</string>
+    <string name="contact_us_button">联系我们</string>
+    <string name="artist_name_ding_siyao">丁思尧</string>
+    <string name="artist_info_ding_siyao">Ding Siyao, Art Professor at Jiamusi University School of Art, Artist at National Academy of Cultural Painting, Founder of HeiJhin Culture. Mrs.Ding has worked for decades with the local Nanai people, learning their practices, understanding their culture and assimilating it with modern artwork techniques. She is currently located in Jiamusi, China teaching students and creating artwork. </string>
+    <string name="about_us_heading">关于我们</string>
+    <string name="mail_us">邮寄给我们！</string>
+    <string name="subject_edit_text_mail">主题</string>
+    <string name="edit_text_body">留给我们信息，我们会迅速回复您！</string>
+    <string name="artist_name_song_lili">宋丽莉</string>
+    <string name="artist_info_song_lili">Lili is a ceramics artist with an education from JingDe Village, the birth place of Chinese pottery. She has a unique talent for designing and creating ceramic and pottery pieces.</string>
+
+    <!---ArtWork Title Array -->
+    <string-array name="art_title_standard">
+        <item name="title_standard0">HeiJhin Shaman 黑金萨满</item>
+        <item name="title_standard1">HeiJhin Villager 黑金渔夫</item>
+        <item name="title_standard2">Anime Inspired Shaman 动漫萨满</item>
+        <item name="title_standard3">Anime Inspired Shaman 动漫萨满</item>
+        <item name="title_standard4">Anime Inspired Shaman 动漫萨满</item>
+        <item name="title_standard5">Flower made from FishSkins 鱼皮花</item>
+        <item name="title_standard6">Flower made from FishSkins 鱼皮花</item>
+        <item name="title_standard7">Flower made from FishSkins 鱼皮花</item>
+        <item name="title_standard8">Flower made from FishSkins 鱼皮花</item>
+        <item name="title_standard9">Flower made from FishSkins 鱼皮花</item>
+        <item name="title_standard10">Flower made from FishSkins 鱼皮花</item>
+        <item name="title_standard11">Flower made from FishSkins 鱼皮花</item>
+        <item name="title_standard12">Flower made from FishSkins 鱼皮花</item>
+        <item name="title_standard13">Flower made from FishSkins 鱼皮花</item>
+        <item name="title_standard14">Flower made from FishSkins 鱼皮花</item>
+
+    </string-array>
+    <string-array name="art_title_wuji">
+        <item name="title_wuji0">Wuji 无极 01</item>
+        <item name="title_wuji1">Wuji 无极 02</item>
+        <item name="title_wuji2">Wuji 无极 03</item>
+        <item name="title_wuji3">Wuji 无极 04</item>
+        <item name="title_wuji4">Wuji 无极 05</item>
+        <item name="title_wuji5">Wuji 无极 06</item>
+        <item name="title_wuji6">Wuji 无极 07</item>
+        <item name="title_wuji7">Wuji 无极 08</item>
+        <item name="title_wuji8">Wuji 无极 09</item>
+        <item name="title_wuji9">Wuji 无极 1</item>
+        <item name="title_wuji10">Wuji 无极 11</item>
+        <item name="title_wuji11">Wuji 无极 12</item>
+        <item name="title_wuji12">Wuji 无极 13</item>
+    </string-array>
+
+    <!---ArtWork Info Array -->
+    <string-array name="art_info">
+        <item name="info_placeholder0">placeholder</item>
+        <item name="info_placeholder1">placeholder</item>
+        <item name="info_placeholder2">placeholder</item>
+        <item name="info_placeholder3">placeholder</item>
+        <item name="info_placeholder4">placeholder</item>
+        <item name="info_placeholder5">placeholder</item>
+        <item name="info_placeholder6">placeholder</item>
+        <item name="info_placeholder7">placeholder</item>
+        <item name="info_placeholder8">placeholder</item>
+        <item name="info_placeholder9">placeholder</item>
+    </string-array>
+
+    <!---Artist Name Array -->
+    <string-array name="artist_name">
+        <item name="artist_name_ding_si_yao">Ding SiYao</item>
+    </string-array>
+
+    <!---ArtWork Year Array -->
+    <integer-array name="art_year">
+        <item name="year_2008">2008</item>
+        <item name="year_2009">2009</item>
+        <item name="year_2010">2010</item>
+        <item name="year_2011">2011</item>
+        <item name="year_2012">2012</item>
+        <item name="year_2013">2013</item>
+        <item name="year_2014">2014</item>
+        <item name="year_2015">2015</item>
+        <item name="year_2016">2016</item>
+        <item name="year_2017">2017</item>
+        <item name="year_2018">2018</item>
+    </integer-array>
+
+    <!---ArtWork Image Int Array -->
+    <array name="art_images">
+        <item>@drawable/img_standard01</item>
+        <item>@drawable/img_standard02</item>
+        <item>@drawable/img_standard03</item>
+        <item>@drawable/img_standard04</item>
+        <item>@drawable/img_standard05</item>
+        <item>@drawable/img_standard06</item>
+        <item>@drawable/img_standard07</item>
+        <item>@drawable/img_standard08</item>
+        <item>@drawable/img_standard09</item>
+        <item>@drawable/img_standard10</item>
+        <item>@drawable/img_standard11</item>
+        <item>@drawable/img_standard12</item>
+        <item>@drawable/img_standard13</item>
+        <item>@drawable/img_standard14</item>
+        <item>@drawable/img_standard15</item>
+        <item>@drawable/img_wuji00</item>
+        <item>@drawable/img_wuji01</item>
+        <item>@drawable/img_wuji03</item>
+        <item>@drawable/img_wuji04</item>
+        <item>@drawable/img_wuji05</item>
+        <item>@drawable/img_wuji06</item>
+        <item>@drawable/img_wuji07</item>
+        <item>@drawable/img_wuji08</item>
+        <item>@drawable/img_wuji09</item>
+        <item>@drawable/img_wuji10</item>
+        <item>@drawable/img_wuji11</item>
+        <item>@drawable/img_wuji12</item>
+    </array>
+
+    <integer-array name="standard_gallery">
+        <item>@drawable/img_standard01</item>
+        <item>@drawable/img_standard02</item>
+        <item>@drawable/img_standard03</item>
+        <item>@drawable/img_standard04</item>
+        <item>@drawable/img_standard05</item>
+        <item>@drawable/img_standard06</item>
+        <item>@drawable/img_standard07</item>
+        <item>@drawable/img_standard08</item>
+        <item>@drawable/img_standard09</item>
+        <item>@drawable/img_standard10</item>
+        <item>@drawable/img_standard11</item>
+        <item>@drawable/img_standard12</item>
+        <item>@drawable/img_standard13</item>
+        <item>@drawable/img_standard14</item>
+        <item>@drawable/img_standard15</item>
+    </integer-array>
+
+    <integer-array name="wuji_gallery">
+        <item>@drawable/img_wuji00</item>
+        <item>@drawable/img_wuji01</item>
+        <item>@drawable/img_wuji03</item>
+        <item>@drawable/img_wuji04</item>
+        <item>@drawable/img_wuji05</item>
+        <item>@drawable/img_wuji06</item>
+        <item>@drawable/img_wuji07</item>
+        <item>@drawable/img_wuji08</item>
+        <item>@drawable/img_wuji09</item>
+        <item>@drawable/img_wuji10</item>
+        <item>@drawable/img_wuji11</item>
+        <item>@drawable/img_wuji12</item>
+    </integer-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chinese_switch_label">中文</string>
+    <string name="art_info_placeholder">作品信息</string>
+
+</resources>

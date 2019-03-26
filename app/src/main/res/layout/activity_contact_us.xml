@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUsActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/contact_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:fontFamily="@font/poacifico"
+        android:textSize="30dp"
+        android:gravity="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_heading">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/contact_email_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/contact_mail_heading"
+                    android:textSize="24dp"
+                    android:text="@string/mail_us"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"/>
+                <Switch
+                    android:id="@+id/toggle_email_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="16dp"
+                    android:onClick="openFragment"
+                    />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/fragment_container"
+                    android:layout_below="@id/contact_mail_heading">
+
+                    <fragment android:name="com.example.heijhin.MailFragment"
+                        android:id="@+id/mailFragment"
+                        android:layout_weight = "1"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        />
+
+                </FrameLayout>
+                <!--
+                <EditText
+                    android:id="@+id/contact_email_subject_edit_text"
+                    android:text="@string/subject_edit_text_mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/edit_text_background"/>
+                <EditText
+                    android:id="@+id/contact_email_body_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/edit_text_body"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@drawable/edit_text_background"/>
+                <Button
+                    android:id="@+id/contact_email_send_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_background"
+                    android:layout_marginTop="10dp"
+                    android:text="Send"
+                    android:textColor="@color/gold"
+                    android:layout_gravity="right"
+                    android:onClick="sendEmailMethod"/>
+                    -->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/contact_call_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/contact_email_layout">
+
+                <TextView
+                    android:id="@+id/contact_call_heading"
+                    android:textSize="24dp"
+                    android:text="Call Us!"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"/>
+
+                <ImageButton
+                    android:id="@+id/contact_us_call"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_below="@+id/contact_call_heading"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginTop="32dp"
+                    android:src="@drawable/usflag"
+                    android:onClick="callNumber"/>
+
+                <ImageButton
+                    android:id="@+id/contact_cn_call"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_below="@+id/contact_call_heading"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="64dp"
+                    android:layout_marginTop="32dp"
+                    android:src="@drawable/chinaflag"
+                    android:onClick="callNumber"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

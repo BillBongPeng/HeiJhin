@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/cover_animation" android:oneshot="false">
+        <item android:drawable="@drawable/cover_0" android:duration="50"/>
+        <item android:drawable="@drawable/cover_1" android:duration="50"/>
+        <item android:drawable="@drawable/cover_2" android:duration="50"/>
+        <item android:drawable="@drawable/cover_3" android:duration="50"/>
+        <item android:drawable="@drawable/cover_4" android:duration="50"/>
+        <item android:drawable="@drawable/cover_5" android:duration="50"/>
+        <item android:drawable="@drawable/cover_6" android:duration="50"/>
+        <item android:drawable="@drawable/cover_7" android:duration="50"/>
+        <item android:drawable="@drawable/cover_8" android:duration="50"/>
+        <item android:drawable="@drawable/cover_9" android:duration="50"/>
+        <item android:drawable="@drawable/cover_10" android:duration="50"/>
+        <item android:drawable="@drawable/cover_11" android:duration="50"/>
+        <item android:drawable="@drawable/cover_12" android:duration="50"/>
+        <item android:drawable="@drawable/cover_13" android:duration="50"/>
+        <item android:drawable="@drawable/cover_14" android:duration="50"/>
+        <item android:drawable="@drawable/cover_15" android:duration="50"/>
+        <item android:drawable="@drawable/cover_16" android:duration="50"/>
+        <item android:drawable="@drawable/cover_17" android:duration="50"/>
+        <item android:drawable="@drawable/cover_18" android:duration="50"/>
+        <item android:drawable="@drawable/cover_19" android:duration="50"/>
+        <item android:drawable="@drawable/cover_20" android:duration="50"/>
+        <item android:drawable="@drawable/cover_21" android:duration="50"/>
+        <item android:drawable="@drawable/cover_22" android:duration="50"/>
+        <item android:drawable="@drawable/cover_23" android:duration="50"/>
+        <item android:drawable="@drawable/cover_24" android:duration="50"/>
+        <item android:drawable="@drawable/cover_25" android:duration="50"/>
+        <item android:drawable="@drawable/cover_26" android:duration="50"/>
+        <item android:drawable="@drawable/cover_27" android:duration="50"/>
+        <item android:drawable="@drawable/cover_28" android:duration="50"/>
+        <item android:drawable="@drawable/cover_29" android:duration="50"/>
+
+    </animation-list>

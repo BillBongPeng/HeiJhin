@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LogInActivity"
+    android:background="@drawable/background">
+    <TextView
+        android:id="@+id/log_in_textView_log_in_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in_label"
+        android:gravity="center"
+        android:layout_marginTop="128dp"
+        android:textSize="32dp"
+        android:fontFamily="@font/poacifico"/>
+    <EditText
+        android:id="@+id/log_in_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/log_in_sudo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:layout_gravity="center"
+        android:onClick="checkLogInSequence"/>
+    <TextView
+        android:id="@+id/log_in_textView_guest_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in_guest"
+        android:gravity="center"
+        android:layout_marginTop="64dp"
+        android:textSize="32dp"
+        android:fontFamily="@font/poacifico"/>
+    <Button
+        android:id="@+id/log_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in_button"
+        android:layout_gravity="center"
+        android:onClick="continueAsGuest"/>
+
+</LinearLayout>

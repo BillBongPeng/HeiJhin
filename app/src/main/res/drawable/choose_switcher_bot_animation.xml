@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/choose_bot_switch_animation" android:oneshot="false">
+    <item android:drawable="@drawable/img_wuji00" android:duration="400"/>
+    <item android:drawable="@drawable/img_wuji01" android:duration="400"/>
+    <item android:drawable="@drawable/img_wuji03" android:duration="400"/>
+    <item android:drawable="@drawable/img_wuji04" android:duration="400"/>
+    <item android:drawable="@drawable/img_wuji05" android:duration="400"/>
+    <item android:drawable="@drawable/img_wuji06" android:duration="400"/>
+    <item android:drawable="@drawable/img_wuji07" android:duration="400"/>
+    <item android:drawable="@drawable/img_wuji08" android:duration="400"/>
+    <item android:drawable="@drawable/img_wuji09" android:duration="400"/>
+    <item android:drawable="@drawable/img_wuji10" android:duration="400"/>
+    <item android:drawable="@drawable/img_wuji11" android:duration="400"/>
+    <item android:drawable="@drawable/img_wuji12" android:duration="400"/>
+
+</animation-list>

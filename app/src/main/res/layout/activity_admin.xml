@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+    <LinearLayout
+        android:id="@+id/admin_parent_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/admin_relative_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/admin_password_update_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Change Password" />
+
+            <Button
+                android:id="@+id/admin_password_update_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change"/>
+
+            <fragment
+                android:id="@+id/admin_password_update_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/admin_relative_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/admin_update_contact_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Contact Email"/>
+
+            <Button
+                android:id="@+id/admin_update_contact_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update Email"/>
+
+            <fragment
+                android:id="@+id/admin_update_contact_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/admin_relative_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/admin_update_contact_number_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Contact Number"/>
+
+            <Button
+                android:id="@+id/admin_update_contact_number_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update Number"/>
+
+            <fragment
+                android:id="@+id/admin_update_contact_number_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/admin_relative_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/admin_update_artist_profile_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Artist Profile"/>
+
+            <Button
+                android:id="@+id/admin_update_artist_profile_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update Profile"/>
+
+            <fragment
+                android:id="@+id/admin_update_artist_profile_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

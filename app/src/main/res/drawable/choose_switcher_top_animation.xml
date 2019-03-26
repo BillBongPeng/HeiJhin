@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/choose_top_switch_animation" android:oneshot="false">
+    <item android:drawable="@drawable/img_standard01" android:duration="400"/>
+    <item android:drawable="@drawable/img_standard02" android:duration="400"/>
+    <item android:drawable="@drawable/img_standard03" android:duration="400"/>
+    <item android:drawable="@drawable/img_standard04" android:duration="400"/>
+    <item android:drawable="@drawable/img_standard05" android:duration="400"/>
+    <item android:drawable="@drawable/img_standard06" android:duration="400"/>
+    <item android:drawable="@drawable/img_standard07" android:duration="400"/>
+    <item android:drawable="@drawable/img_standard08" android:duration="400"/>
+    <item android:drawable="@drawable/img_standard09" android:duration="400"/>
+    <item android:drawable="@drawable/img_standard10" android:duration="400"/>
+    <item android:drawable="@drawable/img_standard11" android:duration="400"/>
+    <item android:drawable="@drawable/img_standard12" android:duration="400"/>
+    <item android:drawable="@drawable/img_standard13" android:duration="400"/>
+    <item android:drawable="@drawable/img_standard14" android:duration="400"/>
+    <item android:drawable="@drawable/img_standard15" android:duration="400"/>
+</animation-list>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/frag_contact_email_subject_edit_text"
+            android:text="@string/subject_edit_text_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/edit_text_background"/>
+        <EditText
+            android:id="@+id/frag_contact_email_body_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/edit_text_body"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/edit_text_background"
+            android:layout_below="@+id/frag_contact_email_subject_edit_text"/>
+        <Button
+            android:id="@+id/frag_contact_email_send_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_background"
+            android:layout_marginTop="10dp"
+            android:text="Send"
+            android:textColor="@color/gold"
+            android:layout_gravity="end"
+            android:onClick="sendEmailMethod"
+            android:layout_below="@id/frag_contact_email_body_edit_text"/>
+    </RelativeLayout>
+
+</FrameLayout>
